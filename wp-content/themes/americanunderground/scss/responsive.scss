@@ -1,0 +1,148 @@
+// Responsive
+
+
+
+
+@include breakpoint(small up) {
+    
+    .small-columns-2 { @include column-count(2); }
+    
+}
+
+@include breakpoint(small only) {
+	
+    
+    
+}
+
+@include breakpoint(small down) {
+
+    // general
+    .banner-content { min-height: 15rem; }
+
+    .text-area{
+        p { line-height: 1.4; }
+    }
+
+   
+}
+
+
+
+/*
+========================================================================================================
+========================================================================================================
+========================================================================================================
+*/
+@include breakpoint(medium up) {
+
+    /* Buttons
+    =============================*/
+    .button { 
+        &:hover { cursor: pointer; color: $secondary-color; border-color: $secondary-color; }
+    }
+
+
+    .button-tertiary { 
+        &:hover { cursor: pointer; color: $white; background-color: rgba($white, .65); border-color: rgba($white, .65); }
+    }
+
+    /* General
+    =============================*/
+    .banner-content { min-height: 20rem; }
+
+    .content-margin-small { margin-bottom: $global-margin; }
+    .content-margin { margin-bottom: $global-margin*2; }
+    .content-margin-large { margin-bottom: $global-margin*4; }
+    .content-margin-xlarge { margin-bottom: $global-margin*8; }
+
+    .padding-small { padding: $global-padding; }
+    .padding { padding: $global-padding; }
+    .padding-large { padding: $global-padding*2; }
+    .padding-xlarge { padding: $global-padding*4; }
+
+    
+   
+} //end medium up
+
+
+@include breakpoint(medium down) {
+
+
+
+}
+
+@include breakpoint(medium only) {
+  
+    
+    
+}
+
+
+
+/*
+========================================================================================================
+========================================================================================================
+========================================================================================================
+*/
+@include breakpoint(large up) {
+
+
+    // .banner-content { min-height: 30rem; }
+
+   
+
+
+
+
+}
+
+
+@include breakpoint(large only) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+========================================================================================================
+========================================================================================================
+========================================================================================================
+*/
+@include breakpoint(xlarge up) { }
+@include breakpoint(xlarge only) { }
+
+
+
+
+
+
+
+
+
+
+/*
+========================================================================================================
+========================================================================================================
+========================================================================================================
+*/
+@include breakpoint(xxlarge up) { }
+@include breakpoint(xxlarge only) { }
+
+
+
+
+
+
+
+
+
+

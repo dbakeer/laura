@@ -1,0 +1,117 @@
+// Manufactur Theme
+
+
+
+/* General
+====================================================================
+====================================================================*/
+// SELECTION
+::-moz-selection { color:$white; background:$black; }
+::selection { color:$white; background:$black; }
+
+
+/* Type
+=============================
+=============================*/
+
+
+
+
+
+/* Buttons
+=============================
+=============================*/
+.button { border: 2px solid $black; color: $black; transition: all .15s ease-out; }
+.button-tertiary { border: 2px solid $white; color: $white; transition: all .15s ease-out; }
+
+
+
+
+
+/* Icons
+=============================
+=============================*/
+
+
+
+
+
+
+/* Header
+====================================================================
+====================================================================*/
+
+
+
+
+
+
+
+
+
+/* Elements
+=============================
+=============================*/
+#wrapper { }
+
+
+
+
+
+
+
+
+
+
+/* Footer
+====================================================================
+====================================================================*/
+
+
+
+
+
+
+
+
+
+
+/* Forms
+=============================
+=============================*/
+.gform_wrapper {
+    form { 
+        .validation_error { }
+        .gform_body { width:100%; }
+        .gform_fields { margin-left:0; list-style: none;
+            .gfield {
+                label { }
+                input,
+                textarea,
+                select { height:auto; 
+                    &:-webkit-autofill,
+                    &:-webkit-autofill:hover,
+                    &:-webkit-autofill:focus,
+                    &:-webkit-autofill:active {
+                         -webkit-box-shadow: 0 0 0px 1000px $white inset;
+                    }
+                    &:focus { box-shadow: none; background-color:rgba(0,0,0,.05);}
+
+                    $placeholder-color: $white; 
+                    &::-webkit-input-placeholder { color: $placeholder-color; }
+                    &:-moz-placeholder { color: $placeholder-color; }
+                    &::-moz-placeholder { color: $placeholder-color; }
+                    &:-ms-input-placeholder { color: $placeholder-color; }
+                }
+                input { font-size:1.3rem; text-align:center; text-transform:uppercase; letter-spacing:.1rem; }
+            }
+        }
+        .gform_footer { text-align: center; 
+            .button { margin:0; }
+            input[type='submit'] { margin:0; }
+        }
+    }
+}
+.gform_ajax_spinner { width:3rem; }
+
+

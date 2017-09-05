@@ -1,0 +1,16 @@
+
+//Fonts
+
+
+@font-face {
+    font-family: 'Alt';
+    src: url('/wp-content/themes/THEME-NAME/fonts/Archive/Archive.eot');
+    src: url('/wp-content/themes/THEME-NAME/fonts/Archive/Archive.eot') format('embedded-opentype'),
+         //url('/wp-content/themes/nesthq/fonts/tradegothic/trade-gothic-condensed-18.woff2') format('woff2'),
+         url('/wp-content/themes/THEME-NAME/fonts/Archive/Archive.woff') format('woff'),
+         // url('./fonts/Archive.ttf') format('truetype'),
+         url('/wp-content/themes/THEME-NAME/fonts/Archive/Archive.ttf') format('ttf'),
+         url('/wp-content/themes/THEME-NAME/fonts/Archive/Archive.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}

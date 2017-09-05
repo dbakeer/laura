@@ -1,0 +1,1 @@
+jQuery(function(){jQuery(document).foundation();var e={contain:!0,initialIndex:1,prevNextButtons:!1,cellAlign:"center",friction:.35,dragThreshold:10,adaptiveHeight:!0};jQuery(".product-carousel").flickity(e)});

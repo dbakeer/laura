@@ -1,0 +1,215 @@
+// Manufactur Theme
+
+
+
+/////////////////////////////////////////////
+///////////////// GENERAL ///////////////////
+/////////////////////////////////////////////
+::-moz-selection { color:$white; background:$black; }
+::selection { color:$white; background:$black; }
+
+body { background-color:$light-gray; }
+
+
+
+
+
+/////////////////////////////////////////////
+////////////////// TYPE /////////////////////
+/////////////////////////////////////////////
+.top-bar { background:transparent; }
+.diagonal-break { background-image:url('../assets/images/diagonal.png'); height:15rem; }
+h1,h2 { font-family:$header-font-family; }
+
+// STANDARD WHITE
+.white { color:$white; }
+// STANDARD GOLD
+.gold { color:$gold; }
+// STANDARD BLUE BACKGROUND
+.blue-bg { background-color:$blue; }
+// FLUX FONT
+.flux { font-family:'Flux W00 Regular'; }
+// GOLD BORDER
+.gold-border { border-bottom:13px solid $dark-gold; }
+// .border-triangle { top:-4rem; background:url('../assets/images/border-triangle.png') no-repeat center center; height:116px; }
+
+
+
+
+
+/////////////////////////////////////////////
+///////////////// BUTTONS ///////////////////
+/////////////////////////////////////////////
+.button { color: $white; transition: all .15s ease-out; box-shadow: 0 13px 27px rgba(0, 0, 0, 0.18); letter-spacing:2px; opacity:1; font-weight:700;
+    &.button-secondary { border-radius:50rem; background-image:url('../assets/images/red-button.png'); background-position:center center; background-size:150%; border:1px solid #500e0e; padding:1rem 2rem; }
+    // &.button-tertiary { background-image:url('../assets/images/red-button.png'); background-position:center center; background-size:250%; border-radius:.5rem; border:1px solid #500e0e; padding:1rem 2rem; }
+    // &.button-quarternary { background-color:$medium-blue; }
+    // &.button-footer { background-color:$dark-blue; }
+}
+
+
+
+
+
+/////////////////////////////////////////////
+///////////////// HEADER ////////////////////
+/////////////////////////////////////////////
+header { background-color:transparent;
+    .wrapper { z-index:1000; width:100%; height:auto; padding:2rem 1rem;
+        .cart { left:2rem; width:3rem; background-color:$white; -webkit-mask:url('../assets/images/cart-icon.svg') no-repeat;  mask:url('../assets/images/cart-icon.svg') no-repeat; height:4rem; }
+        .header-logo { width:8rem; left:calc(50% - 8rem); transform:translate(50%,0); height:8rem; background-color:$white; -webkit-mask:url('../assets/images/logo.svg') no-repeat;  mask:url('../assets/images/logo.svg') no-repeat;}
+        .menu { right:2rem; width:4rem;
+            .menu-border { border:2px solid $white; border-radius:50rem; padding:.3rem 0;
+                .hamburger { width:50%; height:2px; border-radius:50rem;  background-color:$white; margin:.4rem auto; }
+            }
+        }
+    }
+}
+
+
+
+
+/////////////////////////////////////////////
+///////////////// HEADLINE //////////////////
+/////////////////////////////////////////////
+#headline { top:0; background-size:100% contain; width:100vw; background-image:url('../assets/images/headline.png'); background-image:url('../assets/images/headline.png') linear-gradient(180deg, rgba(22, 53, 45, 0.9) 0%, rgba(22, 52, 45, 0.9) 1%, rgba(17, 40, 34, 0) 24%, rgba(0, 0, 0, 0) 100%);
+    .headline-caption { height:40rem; padding:10rem 1rem; }
+    .diagonal-break { bottom:-9rem; margin-bottom:3rem; }
+}
+
+
+
+
+
+
+/////////////////////////////////////////////
+/////////////// AVAILABLE IN ////////////////
+/////////////////////////////////////////////
+// #available { background:url('../assets/images/tan-paisley.png') no-repeat center bottom;
+//     .text-center { z-index:3; }
+//     .product-category { background-image: linear-gradient(top, transparent, transparent 20%, $white 20%, $white 100%); background-image: -webkit-linear-gradient(top, transparent, transparent 20%, $white 20%, $white 100%); }
+//     .product-text { background-image:url('../assets/images/teabag-bg.png'); }
+//     .explore { margin-bottom:4rem; }
+// }
+
+
+
+
+
+/////////////////////////////////////////////
+///////////// OUR LABOR OF LOVE /////////////
+/////////////////////////////////////////////
+// #love { color:$white; box-shadow:inset 0 0 0 1000px rgba(28,48,66,.4); background-image:url('../assets/images/labor-bg.png'); padding-bottom:2rem; }
+
+
+
+
+
+/////////////////////////////////////////////
+////////////// DISCOVER CHAI ////////////////
+/////////////////////////////////////////////
+// #discover { color:$white; box-shadow:inset 0 0 0 1000px rgba(28,48,66,.4); background-image:url('../assets/images/discover.png'); padding-top:2rem;  }
+
+
+
+
+
+/////////////////////////////////////////////
+////////////// DAILY MANTRA /////////////////
+/////////////////////////////////////////////
+// #mantra { background:url('../assets/images/distressed-paisley.png'), url('../assets/images/newsprint.png'); box-shadow:inset 0 0 0 1000px rgba(28,48,66,.9); }
+
+
+
+
+
+
+/////////////////////////////////////////////
+///////////// PRODUCT SLIDER ////////////////
+/////////////////////////////////////////////
+// #products {
+//     .product-carousel {
+//         .carousel-cell { width:60%; height:400px; margin:0 1rem; background-image: linear-gradient(top, transparent, transparent 15%, $white 15%, $white 100%); background-image: -webkit-linear-gradient(top, transparent, transparent 15%, $white 15%, $white 100%); }
+//     }
+// }
+
+
+
+
+
+/////////////////////////////////////////////
+////////////////// SOCIAL ///////////////////
+/////////////////////////////////////////////
+// #social { background-image:url('../assets/images/social-bg.png');
+//     .button { width: 250px;
+//         i { vertical-align:middle; margin-right:.75rem; }
+//     }
+// }
+
+
+
+
+
+
+/////////////////////////////////////////////
+////////////////// FOOTER ///////////////////
+/////////////////////////////////////////////
+// footer {
+//     .footer-menu { display:inline-grid;
+//         .button { font-size:1.25rem; padding:0.45em 1em; }
+//     }
+//     a { color:$gold; }
+//         .offer-row { background-color:$white; color:$black;
+//             .offer { background-color:$gold; }
+//     }
+//     .footer-social { margin-bottom:2rem;
+//         .footer-logo { background:url('../assets/images/footer-logo.png') center center no-repeat; background-size:contain; margin:3rem 0; padding-bottom:5rem; }
+//         .fa { margin-right:3rem;
+//             &:last-child { margin-right:0; }
+//         }
+//     }
+//
+// }
+
+
+
+
+
+
+/////////////////////////////////////////////
+////////////////// FORMS ////////////////////
+/////////////////////////////////////////////
+// .gform_wrapper {
+//     form {
+//         .validation_error { }
+//         .gform_body { width:100%; }
+//         .gform_fields { margin-left:0; list-style: none;
+//             .gfield {
+//                 label { }
+//                 input,
+//                 textarea,
+//                 select { height:auto;
+//                     &:-webkit-autofill,
+//                     &:-webkit-autofill:hover,
+//                     &:-webkit-autofill:focus,
+//                     &:-webkit-autofill:active {
+//                          -webkit-box-shadow: 0 0 0px 1000px $white inset;
+//                     }
+//                     &:focus { box-shadow: none; background-color:rgba(0,0,0,.05);}
+//
+//                     $placeholder-color: $white;
+//                     &::-webkit-input-placeholder { color: $placeholder-color; }
+//                     &:-moz-placeholder { color: $placeholder-color; }
+//                     &::-moz-placeholder { color: $placeholder-color; }
+//                     &:-ms-input-placeholder { color: $placeholder-color; }
+//                 }
+//                 input { font-size:1.3rem; text-align:center; text-transform:uppercase; letter-spacing:.1rem; }
+//             }
+//         }
+//         .gform_footer { text-align: center;
+//             .button { margin:0; }
+//             input[type='submit'] { margin:0; }
+//         }
+//     }
+// }
+// .gform_ajax_spinner { width:3rem; }
